@@ -1,0 +1,157 @@
+body {
+    background-image: url(../img/blue_vs_vi.jpg);
+    background-attachment: fixed;
+    background-size: 2700px 1350px;
+    background-position: center;
+    background-repeat: initial;
+}
+
+#campeonato_caja {
+    position: relative;
+    top: 380px;
+    left: 40%;
+    display: block;
+    margin-bottom: 80px;
+    width: 500px;
+    height: 450px;
+    background: white;
+    border-radius: 10px;
+}
+
+#campeonato_h2 {
+    text-align: center;
+    padding: 40px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    color: black;
+    font-family: "Creepster";
+    font-size: 2.2em;
+}
+
+#campeonato_p {
+    font-weight: bold;
+    font-family: "Almendra SC";
+}
+
+#campeonato_input {
+    display: block;
+    height: 50px;
+    width: 90%;
+    margin: 0 auto;
+    border: none;
+    outline: none;
+}
+
+.nick {
+    position: relative;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    padding-left: 20px;
+    font-family: "Amaranth";
+    text-transform: none;
+    color: #858585;
+    font-weight: lighter;
+}
+
+.nick:focus {
+    text-transform: none;
+    background-color: rgb(179, 179, 179);
+    color: black;
+}
+
+.email {
+    position: relative;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    padding-left: 20px;
+    font-family: "Amaranth";
+    text-transform: none;
+    color: #858585;
+    font-weight: lighter;
+}
+
+.email:focus {
+    text-transform: none;
+    background-color: rgb(179, 179, 179);
+    color: black;
+}
+
+.contraseña {
+    position: relative;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    padding-left: 20px;
+    font-family: "Amaranth";
+    text-transform: none;
+    color: #858585;
+    font-weight: lighter;
+}
+
+.contraseña:focus {
+    text-transform: none;
+    background-color: rgb(179, 179, 179);
+    color: black;
+}
+
+.dificultad {
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-family: "Almendra SC";
+}
+
+#campeonato_dificultad {
+    text-align: center;
+    font-family: "Almendra SC";
+}
+
+.gmail {
+    cursor: pointer;
+    display: inline-block;
+    float: left;
+    width: 250px;
+    height: 80px;
+    margin-top: -10px;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: black;
+    font-family: "Almendra SC";
+}
+
+.gmail:hover {
+    background-color: #696969;
+}
+
+.facebook {
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    width: 250px;
+    height: 80px;
+    margin-top: -10px;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: black;
+    font-family: "Almendra SC";
+}
+
+.facebook:hover {
+    background-color: #696969;
+}
+
+#campeonato_volver {
+    cursor: pointer;
+    display: inline-block;
+    width: 500px;
+    height: 60px;
+    margin-top: 10px;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: black;
+    font-family: "Almendra SC";
+    border-radius: 5px;
+}
+
+#campeonato_volver:hover {
+    background-color: #696969;
+}

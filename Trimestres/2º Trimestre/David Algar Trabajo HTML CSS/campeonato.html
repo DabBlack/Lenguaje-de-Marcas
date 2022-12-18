@@ -1,0 +1,74 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Campeonato</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/campeonato.css">
+
+  <meta name="theme-color" content="#fafafa">
+
+  <!-- Enlaces -->
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Creepster|Almendra SC|Amaranth">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <!-- Div Principal -->
+
+  <div id="campeonato_caja" class="caja">
+    <h2 id="campeonato_h2"><img src="img/icon.png" width="40px" height="40px"> Campeonato <img src="img/icon.png"
+        width="40px" height="40px"> </h2>
+
+    <!-- Formulario -->
+
+    <form>
+      <!-- Nombre de Usuario -->
+      <input id="campeonato_input" type="text" class="nick" placeholder="Nombre de Usuario">
+      <br>
+
+      <!-- Email -->
+      <input id="campeonato_input" type="text" class="email" placeholder="Correo Electrónico">
+      <br>
+
+      <!-- Contraseña -->
+      <input id="campeonato_input" type="password" class="contraseña" placeholder="Contraseña">
+    </form>
+    <br>
+
+    <!-- Dificultad -->
+    <p id="campeonato_dificultad">Dificultad: <select name="dificultad" class="dificultad"> </p>
+    <option value="facil">Fácil</option>
+    <option value="intermedio" selected>Intermedio</option>
+    <option value="dificil">Difícil</option>
+    </select>
+
+    <br><br><br>
+
+    <!-- Botones -->
+
+    <form action="">
+      <a href="https://accounts.google.com/AccountChooser/signinchooser?service=mail&
+      continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&flowName=GlifWebSignIn&flowEntry=
+      AccountChooser"><button type="submit" name="gmail" class="gmail"><img src="img/gm.png"
+      width="50px" height="35px" />Gmail</button></a>
+
+      <a href="https://www.facebook.com/leagueoflegends"><button type="submit" name="facebook" 
+        class="facebook"><img src="img/fb.jpg" width="70px" height="60px"/>Facebook</button></a>
+    </form>
+
+    <form action="">
+      <a href="index.html"><button type="button" id="campeonato_volver" name="volver" class="volver">
+          Volver</button></a>
+    </form>
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+body {
+    margin: 0px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    border: 3px solid red;
+}
+
+.flex-container > div {
+    font-size: 0.2em;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+#div1 {
+    background-color: blue;
+}
+
+#div2 {
+    background-color: aqua; 
+}
+
+#div3 {
+    background-color: blueviolet; 
+}
+
+#div4 {
+    background-color: palevioletred;
+}
+ 
+#div5 {
+    background-color: red;
+}
+
+#div6 {
+    background-color: orange;
+}
+
+#div7 {
+    background-color: yellow;
+}
+
+#div8 {
+    background-color: green;
+}
+
+#div9 {
+    background-color: grey;
+}
+
+#div10 {
+    background-color: black;
+}

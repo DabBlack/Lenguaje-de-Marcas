@@ -1,0 +1,67 @@
+body {
+    margin: 0px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    border: 3px solid red;
+}
+
+.flex-container > div {
+    flex: 1;
+    font-size: 2.5em;
+    color: white;
+    text-align: center;
+}
+
+#div1 {
+    background-color: blue;
+    align-self: flex-start;
+}
+
+#div2 {
+    background-color: aqua;
+    height: 100vh;
+}
+
+#div3 {
+    background-color: blueviolet; 
+    align-self: flex-start;
+}
+
+#div4 {
+    background-color: palevioletred;
+    align-self: flex-start;
+}
+ 
+#div5 {
+    background-color: red;
+    align-self: flex-start;
+}
+
+#div6 {
+    background-color: orange;
+    align-self: center;
+}
+
+#div7 {
+    background-color: yellow;
+    align-self: flex-start;
+}
+
+#div8 {
+    background-color: green;
+    align-self: flex-start;
+}
+
+#div9 {
+    background-color: grey;
+    align-self: flex-end;
+}
+
+#div10 {
+    background-color: black;
+    align-self: flex-start;
+}

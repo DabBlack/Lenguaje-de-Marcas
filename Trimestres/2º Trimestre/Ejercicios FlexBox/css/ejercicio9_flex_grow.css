@@ -1,0 +1,44 @@
+body {
+    margin: 0px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-container > div {
+    font-size: 1em;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+#div1 {
+    background-color: blue;
+    flex-grow: 0.3;
+}
+
+#div2 {
+    background-color: aqua; 
+    flex-grow: 0.7;
+}
+
+#div3 {
+    background-color: blueviolet; 
+    flex-grow: 0.3;
+}
+
+#div4 {
+    background-color: rgb(255, 0, 85);
+    flex-grow: 0.3;
+}
+ 
+#div5 {
+    background-color: yellowgreen;
+    flex-grow: 1;
+}
+
+#div6 {
+    background-color: orange;
+    flex-grow: 0.3;
+}

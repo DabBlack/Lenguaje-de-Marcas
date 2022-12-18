@@ -1,0 +1,41 @@
+html {
+    box-sizing: border-box;
+}
+
+.iconos2 {
+    color: orangered;
+}
+
+.iconos1:hover {
+    transition: 0.1s;
+    color: orangered;
+}
+
+.iconos2:hover {
+    transition: 0.1s;
+    color: black;
+}
+
+li {
+    border-bottom: 2px transparent solid;
+}
+
+li:hover {
+    border-bottom: 2px orange solid;
+}
+
+footer i {
+    color: orange;
+}
+
+label {
+    font-weight: bolder;
+}
+
+.bg-custom {
+    background-color: rgb(227, 227, 227);
+}
+
+.bg-custom2 {
+    background-color: rgb(241, 241, 241);
+}

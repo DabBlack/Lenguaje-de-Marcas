@@ -1,0 +1,45 @@
+#divPrincipal {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#banner {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    text-align: center;
+}
+
+html,
+body {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.contenedorCuadros {
+    margin-top: 30px;
+    width: 100%;
+    padding: 0px;
+}
+
+.cuadro {
+    border: 1px solid #000000;
+    display: inline-block;
+}
+
+.unTercio {
+    width: 33%;
+}
+
+.UnCuarto {
+    width: 24%;
+}
+
+.imgCuadro {
+    width: 100%;
+}
